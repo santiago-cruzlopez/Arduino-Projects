@@ -9,17 +9,15 @@
 Describe your project
 
 == Step 1: Installation
-Please describe the steps to install this project.
-
-For example:
-
-1. Open this file
-2. Edit as you like
-3. Release to the World!
+1. Download this repository containing all the project files.
+2. Extract the downloaded files.
+3. Open the Arduino IDE software (https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE).
+4. Create an Arduino Cloud account
+5. Connect the Arduino UNO R3 WiFi to the Arduino Cloud, make sure the board is in the same LAN as the desktop or laptop.
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram layout.png attached to the sketch
+Open the "Home Automation Document.pdf" to see the simulation, connections and electronic components.
 
 == Step 3: Load the code
 
@@ -28,27 +26,33 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
+ Home Automation                => Arduino sketch folder
+  ├── home_automation.ino       => main Arduino file
+  ├── thinProperties.h
+  ├── Home Automation Document  => An image of the layout and instructions
+  └── ReadMe.adoc               => this file
 ....
 
 === License
-This project is released under a {License} License.
+This project is released under a Public Domain License. You are free to use, modify and distribute this project without restrictions.
 
 === Contributing
-To contribute to this project please contact: 
+If you'd like to contribute to this project with improvements or additional features, please contact trough my LinkedIn: https://www.linkedin.com/in/santi-cruz/ 
 
-=== BOM
-Add the bill of the materials you need for this project.
+=== Electronic Materials
 
 |===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
+| ID  | Part name           | Part number                     | Quantity
+| R1  | 1k Resistor         | Look for a 1k ohm resistor      | 3       
+| R2  | 220 Ohm Resistor    | Look for a 220 ohm resistor     | 1     
+| D1  | RGB LED             | Common cathode or anode         | 1   
+| D2	 | Blue LED		          |                                 | 4
+| D3	 | White LED		         |                                 | 1 
+| D4	 | Red LED		           |                                 | 1
+| IC1 |	DHT11 Sensor	       | Temperature and Humidity Sensor |	1
+| IC2	| HC-SR501            | PIR Motion Sensor	              |	1
+| DIS	| LCD Display (I2C)	  | Look for a compatible I2C LCD   |	1
+| UNO	| Arduino UNO R3 WIFI |                                 |	1
 |===
 
 
