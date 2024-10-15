@@ -1,3 +1,3 @@
 # Arduino-Projects
 
-1. Open the folder to learn more about my Home Automation project.
+Hey GitHub community, take a look at my Arduino projects from the past few years.
