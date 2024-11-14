@@ -1,4 +1,4 @@
-# Arduino-Projects
+Aruino Projects GitHub Repository
 
 This repository features a collection of Arduino-based IoT projects, showcasing home automation, sensor applications, and interactive displays.
 
