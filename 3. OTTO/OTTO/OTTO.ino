@@ -1,10 +1,5 @@
-//----------------------------------------------------------------
 //-- OTTO Dance smooth criminal
-//-- Released under a GPL licencse
-//-- Originally made for Zowi project remake for Otto
-//-- Authors:  Javier Isabel:  javier.isabel@bq.com
-//--           Juan Gonzalez (obijuan): juan.gonzalez@bq.com
-//-----------------------------------------------------------------
+
 #include <Servo.h>
 #include <Oscillator.h>
 #include <EEPROM.h>
