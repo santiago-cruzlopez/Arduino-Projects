@@ -41,19 +41,18 @@ If you'd like to contribute to this project with improvements or additional feat
 
 === Electronic Materials
 
-|===
-| ID  | Part name           | Part number                     | Quantity
-| R1  | 1k Resistor         | Look for a 1k ohm resistor      | 3       
-| R2  | 220 Ohm Resistor    | Look for a 220 ohm resistor     | 1     
-| D1  | RGB LED             | Common cathode or anode         | 1   
-| D2	 | Blue LED		          |                                 | 4
-| D3	 | White LED		         |                                 | 1 
-| D4	 | Red LED		           |                                 | 1
-| IC1 |	DHT11 Sensor	       | Temperature and Humidity Sensor |	1
-| IC2	| HC-SR501            | PIR Motion Sensor	              |	1
-| DIS	| LCD Display (I2C)	  | Look for a compatible I2C LCD   |	1
-| UNO	| Arduino UNO R3 WIFI |                                 |	1
-|===
+| ID  | Part name           | Description                     | Quantity     |
+|:---:|:-------------------:|:-------------------------------:|:------------:|
+| R1  | 1k Resistor         | Look for a 1k ohm resistor      | 3            | 
+| R2  | 220 Ohm Resistor    | Look for a 220 ohm resistor     | 1            |
+| D1  | RGB LED             | Common cathode or anode         | 1            |  
+| D2	| Blue LED		        | Regular Led                     | 4            |
+| D3	| White LED		        | Regular Led                     | 1            |
+| D4	| Red LED		          | Regular Led                     | 1            |  
+| IC1 |	DHT11 Sensor	      | Temperature and Humidity Sensor |	1            |  
+| IC2	| HC-SR501            | PIR Motion Sensor	              |	1            |
+| DIS	| LCD Display (I2C)	  | Look for a compatible I2C LCD   |	1            |
+| UNO	| Arduino UNO R3 WIFI | Microcontroller                 |	1            |
 
 
 === Help
